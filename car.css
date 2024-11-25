@@ -1,0 +1,318 @@
+
+body{
+    height: 900px;
+    background-image: url(image/pexels-a2pro-3422964.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+                    /* start navbar  */ 
+.navbar-brand{
+    background-color: #ff0000b6; 
+       position: absolute;
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+    margin-top: 10px;
+    font-style: oblique;
+    font-size:20px;
+    box-shadow: 0 1px 5px rgba(255, 255, 255, 0.477);
+    padding: 3px 15px;
+    border-color: rgb(142, 59, 59);
+    text-transform:capitalize;
+    z-index: 100000000000;
+    
+}
+.navbar-brand:hover{
+    margin-top: 25px;
+    transition: 0.5s;
+    background-color: rgba(167, 157, 157, 0.151);
+
+
+
+}
+                    /* end h1  */
+                  /* start homebar */
+.home {
+    display: flex;
+    position: absolute;
+    list-style-type: none; /* إزالة النقاط من القائمة */
+    padding: 0;
+    margin-left: 350px;
+    justify-content: center; /* محاذاة العناصر في المنتصف */
+    border-radius: 10px; /* منح الحواف الشكل المدور */
+    box-shadow: 0 10px 15px rgb(9, 3, 3); /* إضافة ظل للقائمة */
+    margin-top: 35px; /* ترك مسافة من الأعلى */
+}
+
+li {
+    margin: 0 20px; /* مسافة بين العناصر */
+}
+
+a {
+    text-decoration: none; /* إزالة التسطير من الروابط */
+    color: rgb(255, 255, 255); /* النص باللون الأبيض */
+    background-color: #ffffff; /* عند المرور بالفأرة يصبح لون الخلفية أحمر */
+    color: #000000; /* النص يبقى أبيض */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    background-color: #000000; /* عند المرور بالفأرة يصبح لون الخلفية أحمر */
+     border-style: solid;
+     border-color: white;
+     background-color: rgba(255, 255, 255, 0.347);
+}
+
+a:active {
+    background-color: #a4a3a3; /* عند الضغط على الرابط يصبح لونه أزرق */
+}
+                  /* end homebar */
+/* start searchbar */
+
+.search-container{
+    position:relative;
+    margin-left: 1050px;
+    margin-top: 10px;
+}
+.search-input{
+    border-color: #ffffff;
+    border-radius: 20px;
+background-color: #fffffff0;
+}
+.search-text{
+    text-align: center;
+background-color: #00000000;    text-transform: capitalize;
+
+}
+                    /* end searchbar */
+                     /* end navbar */
+
+                     
+               /* start cacrousel  */
+
+#carousel{
+    box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.639);
+    background-color: #ffffffe9;
+    border-radius: 15px;
+    display: flex;
+    margin-top: 75px;
+    justify-content: space-around;
+}
+.card{
+    border-width: 0px;
+    height: 200px;
+}
+.card:hover{
+    box-shadow: 10px 10px 20px grey;
+   
+}
+.card-img-top{
+    width: 279px;
+    height: 150px;
+}
+
+
+
+.card-title1{
+    position: absolute;
+    border-style: solid;
+    margin-top: -20px;
+    font-size: 17px;
+    text-align: center;
+    margin-left: 85px;
+text-transform:capitalize;
+font-style:oblique;
+transition: 0.5s;
+color: rgb(255, 255, 255);
+background-color: #000000fe;
+border-color: #000000;
+
+}
+.card-title1:hover{
+    color: rgb(0, 0, 0);
+    background-color: #00000022;
+
+}
+                 /* end carousel */
+
+                 /* start buy nav  */
+       .banner {
+        margin-left: 20px;
+        margin-top: 80px;
+        width: 500px;
+            background-color: #00000058;
+            border-style: double;
+            border-color: #0000005b;
+            border-radius: 40px;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            height: 250px;
+        }
+        .banner h1 {
+    
+            color: #ffffff;
+            text-transform: capitalize;
+            background-color: #ff0000b0;
+            box-shadow: 5px 5px 20px rgb(0, 0, 0);
+            width: 200px;
+            padding: 15px 15px;
+            height: 70px;
+            font-size: 29px;
+            margin: 0;
+            margin-top:-30px ;
+            margin-left: 120px;
+            text-align: center;
+            transition: 0.9s;
+        }
+        .banner h1:hover{
+            color: white;
+            background-color: #000000;
+        }
+        .banner p {
+            color: #100606;
+            text-align: center;
+            background-color: #ffffff67;
+            width: 280px;
+            text-align: center;
+            margin-left: 75px;
+           align-content: center;            
+            box-shadow: 2px 3px 10px rgb(0, 0, 0);      
+           margin-top:20px;   
+        }
+
+        .cta-buttons {
+            margin-left: 250px;
+            margin-top: 20px;
+        }
+        .cta-buttons a {
+            color: white;
+            display: inline-block;
+            background-color: #ff00005e;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 18px;
+            margin-left: 60px;
+            margin-top: 10px;
+            border-radius: 15px;
+            transition: background-color 0.3s;
+        }
+        .cta-buttons a:hover {
+            background-color: #FF3D00;
+        }
+
+        /* end buy nav  */
+
+/* start ul carousel  */
+
+.carousel-container{
+  width: 100%;
+  height: 160px;
+  max-width: 250px; /* عرض الحاوية */
+  overflow: hidden;
+  position: relative;
+  margin-top: 100px;
+  margin-left: 20px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #6f6e6e95;
+  box-shadow: 7px 7px 10px black;
+}
+
+.carousel-item.active {
+    opacity: 1; /* العنصر النشط يظهر */
+    z-index: 1; /* يجعل العنصر النشط فوق العناصر الأخرى */
+  }
+  .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0); /* خلفية شفافة للزر */
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 10;
+    transition: background-color 0.3s;
+  }
+  
+  .carousel-control-next:hover {
+    color: #000000;
+    background-color: rgba(82, 80, 80, 0.8); /* تغيير اللون عند التمرير */
+  } 
+
+  .visually-hidden {
+    color: #000000;
+    position: absolute; /* إخراج العنصر من تدفق الصفحة */
+    width: 1px; /* عرض صغير جدًا */
+    height: 1px; /* ارتفاع صغير جدًا */
+    padding: 0; /* إزالة أي مسافات داخلية */
+    margin: -1px; /* منع التأثير على التخطيط */
+    overflow: hidden; /* إخفاء المحتوى الذي يفيض */
+    clip: rect(0, 0, 0, 0); /* قص العنصر بالكامل */
+    white-space: nowrap; /* منع التفاف النص */
+    border: 0; /* إزالة أي إطار قد يؤثر */
+  }
+                 /* end ul carsouel */
+                   
+                  /* start p  */
+
+.text-center{
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    position: absolute;
+    margin-left: 420px;
+    background-color: #00000032  ;
+    margin-top: 60px;
+    height: 200px;
+}
+.card-header{
+    background-color: #ffffff40;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.479);
+}
+.nav-pills{
+    color: rgb(0, 0, 0);
+    background-color: #f6f6f66f;
+}
+.card-header-pills{
+    color: #000000;
+}
+.active{
+    background-color: #000000;
+}
+.nav-link{
+    color: #ff0000ab;
+}
+.card-body{
+    background-color: #1515153e;
+}
+.card-title{
+    color: #ffffff98;
+}
+
+.btn-primary{
+    width: 100px;
+    height: 40px;
+    background-color: #ff0e0e72;
+    margin-top: 30px;
+    border-color: #000000;
+}
+..btn-primary:hover{
+    background-color: white;
+}
+/* end p  */
+
+
+
+
